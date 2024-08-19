@@ -1,0 +1,4 @@
+../Drivers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+../Drivers/CMSIS/Include/core_cm4.h:2022:26:SysTick_Config	16	static
+../Core/Src/delay.c:9:6:SysTick_Init	16	static
+../Core/Src/delay.c:18:6:SysTick_Handler	8	static

@@ -1,0 +1,16 @@
+modbus tutorial:
+
+config by staff:
+https://www.feaser.com/en/blog/2023/04/stm32-modbus-rtu-server-tutorial/
+
+
+
+youtube video playlist (that i found):
+
+https://www.youtube.com/watch?v=GlblujGwX9c&list=PLfIJKC1ud8ggRvaEsMjSEDazoBAnY4MUv
+
+
+
+project download and tutorial link:
+
+https://controllerstech.com/modbus/

@@ -1,0 +1,5 @@
+../library/microtbx-modbus/tbxmb_port.c:76:6:TbxMbPortUartInit	16	static
+../library/microtbx-modbus/tbxmb_port.c:117:9:TbxMbPortUartTransmit	24	static
+../library/microtbx-modbus/tbxmb_port.c:170:10:TbxMbPortTimerCount	4	static
+../library/microtbx-modbus/tbxmb_port.c:201:6:TbxMbPortUartTxInterrupt	16	static
+../library/microtbx-modbus/tbxmb_port.c:246:6:TbxMbPortUartRxInterrupt	24	static

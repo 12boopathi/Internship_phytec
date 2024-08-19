@@ -1,0 +1,32 @@
+Timer Configuration Calculation:
+====================================
+
+Timer Clock Frequency:
+
+The timer clock is derived from the system clock (APB1 or APB2 bus clock, depending on the timer). 
+
+Let's assume the system clock (APB1) is running at 84 MHz.
+
+Prescaler (PSC):
+----------------
+The prescaler divides the system clock to produce the timer clock. 
+The prescaler value you set is PSC, which means the timer clock will 
+be the system clock divided by (PSC + 1).
+
+For simplicity, let’s choose a prescaler value of 8399. 
+This will divide the system clock by 8400:
+
+	      System Clock	84 MHz
+Timer Clock = --------------  =  ---------  = 10 KHz
+	      Prescaler + 1	8399 + 1
+
+
+Period (ARR - Auto-Reload Register):
+------------------------------------
+The period value determines how many timer ticks occur 
+before the timer overflows and triggers an interrupt. 
+To achieve a 5-second delay, you need the timer to count 50,000 times (since the timer clock is 10 kHz).
+
+Period = Timer Clock × Delay Time = 10kHz × 5s = 50,000
+
+Since the timer counts from 0 to ARR, the value to be set in the period register is 49,999.

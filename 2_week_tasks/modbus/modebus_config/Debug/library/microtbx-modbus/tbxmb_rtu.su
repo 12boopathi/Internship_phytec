@@ -1,0 +1,11 @@
+../library/microtbx-modbus/tbxmb_rtu.c:132:10:TbxMbRtuCreate	72	static
+../library/microtbx-modbus/tbxmb_rtu.c:267:6:TbxMbRtuFree	24	static
+../library/microtbx-modbus/tbxmb_rtu.c:302:13:TbxMbRtuPoll	72	static
+../library/microtbx-modbus/tbxmb_rtu.c:480:16:TbxMbRtuTransmit	40	static
+../library/microtbx-modbus/tbxmb_rtu.c:624:13:TbxMbRtuReceptionDone	24	static
+../library/microtbx-modbus/tbxmb_rtu.c:666:25:TbxMbRtuGetRxPacket	32	static
+../library/microtbx-modbus/tbxmb_rtu.c:707:25:TbxMbRtuGetTxPacket	32	static
+../library/microtbx-modbus/tbxmb_rtu.c:747:16:TbxMbRtuValidate	40	static
+../library/microtbx-modbus/tbxmb_rtu.c:859:13:TbxMbRtuTransmitComplete	32	static
+../library/microtbx-modbus/tbxmb_rtu.c:920:13:TbxMbRtuDataReceived	48	static
+../library/microtbx-modbus/tbxmb_rtu.c:1053:17:TbxMbRtuCalculatCrc	24	static

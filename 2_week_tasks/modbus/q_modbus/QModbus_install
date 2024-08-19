@@ -1,0 +1,31 @@
+           *********** QModbus Installation ***********
+           
+           
+pavithra@pavithra:~$ sudo apt-get update
+pavithra@pavithra:~$ sudo apt-get install build-essential qt5-qmake libqt5serialport5-dev libmodbus-dev
+pavithra@pavithra:~$ unzip qmodbus-0.3.0.zip
+pavithra@pavithra:~$ cd qmodbus-0.3.0/
+pavithra@pavithra:~$ make
+pavithra@pavithra:~$ ls
+3rdparty                moc_iplineedit.o              qmodbus
+asciisettingswidget.o   moc_mainwindow.cpp            qmodbus.desktop
+AUTHORS                 moc_mainwindow.o              qmodbus.nsi
+BatchProcessor.o        moc_predefs.h                 qmodbus.pro
+COPYING                 moc_qextserialenumerator.cpp  qmodbus.rc
+data                    moc_qextserialenumerator.o    qrc_qmodbus.cpp
+debian                  moc_qextserialport.cpp        qrc_qmodbus.o
+deployment.pri          moc_qextserialport.o          README
+forms                   moc_serialsettingswidget.cpp  rtusettingswidget.o
+INSTALL                 moc_serialsettingswidget.o    serialsettingswidget.o
+ipaddressctrl.o         moc_tcpipsettingswidget.cpp   src
+iplineedit.o            moc_tcpipsettingswidget.o     tcpipsettingswidget.o
+main.o                  modbus-ascii.o                TODO
+mainwindow.o            modbus-data.o                 ui_about.h
+Makefile                modbus.o                      ui_BatchProcessor.h
+moc_BatchProcessor.cpp  modbus-rtu.o                  ui_ipaddressctrl.h
+moc_BatchProcessor.o    modbus-tcp.o                  ui_mainwindow.h
+moc_ipaddressctrl.cpp   posix_qextserialport.o        ui_serialsettingswidget.h
+moc_ipaddressctrl.o     qextserialenumerator_unix.o   ui_tcpipsettingswidget.h
+moc_iplineedit.cpp      qextserialport.o
+pavithra@pavithra:~/Downloads/qmodbus-0.3.0$ ./qmodbus 
+

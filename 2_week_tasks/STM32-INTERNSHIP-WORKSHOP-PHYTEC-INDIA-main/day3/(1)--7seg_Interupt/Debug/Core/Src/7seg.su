@@ -1,0 +1,2 @@
+../Core/Src/7seg.c:12:6:display_number	16	static
+../Core/Src/7seg.c:109:6:HAL_TIM_PeriodElapsedCallback	16	static
